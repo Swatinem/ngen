@@ -1,0 +1,13 @@
+{
+  "name": "{{module-}}",
+  "repo": "Swatinem/{{module-}}",
+  "version": "0.0.1",
+  "description": "{{description}}",
+  "keywords": [],
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+  },
+  "license": "LGPLv3"
+}
