@@ -30,8 +30,8 @@ clean: clean-cov
 #	-@./node_modules/.bin/jshint $^ && touch .lint
 #	@NODE_ENV=test ./node_modules/.bin/mocha > /dev/null
 
-test:
-	NODE_ENV=test ./node_modules/.bin/mocha
+test: lib-cov
+	NODE_ENV=test ./node_modules/.bin/mocha --harmony
 
 lib-cov: clean-cov
 	./node_modules/.bin/jscoverage lib lib-cov

@@ -1,5 +1,6 @@
 node_modules
 components
+deploy
 lib-cov
 coverage.html
 npm-debug.log
