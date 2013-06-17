@@ -4,10 +4,15 @@
   "version": "0.0.1",
   "description": "{{description}}",
   "keywords": [],
+  "main": "lib/index.js",
   "scripts": [
-    "index.js"
+    "lib/index.js"
+  ],
+  "templates": [
+    "templates/partial.jade"
   ],
   "dependencies": {
+    "Swatinem/template": "*"
   },
   "license": "LGPLv3"
 }

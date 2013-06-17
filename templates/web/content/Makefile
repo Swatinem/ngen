@@ -13,7 +13,7 @@ deploy/index.css: $(STYLUS_FILES)
 	./node_modules/.bin/stylus --include-css --out deploy stylus/index.styl
 
 deploy/index.js: components $(JS_FILES)
-	@./node_modules/.bin/component build --out deploy --name index
+	@./node_modules/.bin/component build --use component-jade --out deploy --name index
 
 components: component.json
 	@./node_modules/.bin/component install --dev
